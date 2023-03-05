@@ -6,7 +6,9 @@
     "start": "npx cross-env NODE_OPTIONS=--openssl-legacy-provider expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "npx cross-env NODE_OPTIONS=--openssl-legacy-provider expo start --web"
+    "web": "npx cross-env NODE_OPTIONS=--openssl-legacy-provider expo start --web",
+    "lint": "eslint --ext .tsx --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext .tsx --ignore-path .gitignore ."
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
@@ -21,7 +23,13 @@
     "typescript": "^4.6.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.4"
   },
   "private": true
 }
