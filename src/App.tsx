@@ -6,7 +6,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 import { Login, Signup } from "@pages";
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator()
 
 const App = () => {
   return (
