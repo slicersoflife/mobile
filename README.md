@@ -20,6 +20,8 @@ yarn install
 
 4. Follow the on-screen instructions to run the app on your phone, in your web browser, or in an emulator.
 
+5. It is recommended to download the [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) extensions, and turn on the "format on save" option in your editor.
+
 ## How to Contribute
 
 1. Start a branch off of `development`; be sure to include the type of change in the name of the branch (e.g. `feat/add_login_page`).
